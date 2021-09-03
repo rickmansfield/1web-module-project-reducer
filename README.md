@@ -119,3 +119,4 @@ export const initialState = {
 
 ## Rick Mansfield's Pull req
 - [Link for Convenience](https://github.com/LambdaSchool/web-module-project-reducer/pull/93)
+- this is the first attempt. See second as well. While I passed all the sprints I felt better repeating Unit three and exercised the Flex option. However, this code is solid. 
