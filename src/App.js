@@ -8,9 +8,9 @@ import CalcButton from './components/CalcButton';
 import { applyNumber, addOne } from '../src/actions/index';
 
 function App() {
-  console.log(initialState);
+   // console.log('App.js 10 access to initialState',initialState);
   const [state, dispatch ] = useReducer(reducer, initialState);
-  console.log(state);
+  console.log('App.js 12 current state via dispatch useReducer', state);
 
   const handleAddOneClick = e => {
     dispatch(addOne());
@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App">
       <nav className="navbar navbar-dark bg-dark">
-        <a className="navbar-brand" href="#"><img width="40px" src="./Lambda-Logo-Red.png" alt=''/> Lambda Reducer Challenge</a>
+        <a className="navbar-brand" href="/"><img width="40px" src="./Lambda-Logo-Red.png" alt=''/> Lambda Reducer Challenge</a>
       </nav>
 
       <div className = "container row mt-5">
